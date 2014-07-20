@@ -1,0 +1,18 @@
+body {
+	background: url(http://i.imgur.com/XqroKuc.jpg) fixed;
+	background-size: 100%;
+}
+#logo {
+	position: fixed;
+	width: 320px;
+	height: auto;
+	margin-left: 50px;
+	margin-top: 85px;
+	float: left;
+	border: 1px solid black;
+}
+#logo p {
+	font-family: "Lucida Console", Monaco, monospace;
+	color: white;
+	font-size: 3em;
+}
