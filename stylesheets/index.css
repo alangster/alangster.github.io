@@ -67,9 +67,17 @@ header {
 }
 .post-text {
 	color: white;
-	font-family: sans-serif;
+	font-family: Tillium Web;
 }
 .post-text a {
 	text-decoration: none;
 	color: white;
+}
+td {
+	color: white;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+@font-face {
+	font-family: Tillium Web;
+	src: url(http://fonts.googleapis.com/css?family=Titillium+Web:200);
 }
