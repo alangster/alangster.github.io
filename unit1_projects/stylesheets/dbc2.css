@@ -9,7 +9,7 @@ td a {
 	color: black;
 }
 td a:hover {
-	background-color: white;
+	background-color: blue;
 }
 #sidebar {
 	text-align: left;
