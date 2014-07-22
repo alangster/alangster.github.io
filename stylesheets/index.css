@@ -1,81 +1,91 @@
 body {
-	background: url(http://i.imgur.com/XqroKuc.jpg) fixed;
+	background: url(http://i.imgur.com/XqroKuc.jpg?1) fixed;
 	background-size: 100%;
 }
 #logo {
-	position: fixed;
 	width: 320px;
 	height: auto;
 	margin-left: 10px;
 	margin-top: 0px;
-	float: left;
+	border: 2px dashed aqua;
 }
 #logo p {
 	font-family: "Lucida Console", Monaco, monospace;
 	color: white;
 	margin-top: 20px;
-	font-size: 3em;
+	font-size: 3.25em;
+	border: 2px dashed aqua;
 }
-#links {
+#social {
 	width: 10%;
 	margin-top: 200px;
 	margin-left: 10px;
-	position: fixed;
+	border: 2px dashed aqua;
 }
-#links div {
+#social div {
 	width: 100%;
+	border: 2px dashed aqua;
 }
-#links div img {
+#social div img {
 	width: 60px;
 	height: auto;
 	margin-top: 15px;
 	margin-bottom: 15px;
+	border: 2px dashed aqua;
 }
 #blogs {
 	width: 16%;
 	margin-left: 975px;
-	position: fixed;
-	margin-top: 30px;
+	margin-top: 140px;
+	border: 2px dashed aqua;
 }
 #blogs a {
 	text-decoration: none;
 	color: white;
 	font-family: "Lucida Console", Monaco, monospace;
+	border: 2px dashed aqua;
 }
 #blogs a:hover {
 	background-color: white;
 	color: black;
+	border: 2px dashed aqua;
 }
 #posts {
 	color: white;
 	font-family: "Lucida Console", Monaco, monospace;
 	font-size: 2em;
+	border: 2px dashed aqua;
 }
 #content {
 	width: 45%;
-	position: absolute;
-	margin-top: 140px;
+	margin-top: 0px;
 	margin-left: 400px;
+	border: 2px dashed aqua;
 }
 header {
 	font-family: sans-serif;
 	font-size: 2em;
 	color: white;
+	border: 2px dashed aqua;
 }
 .date {
 	font-size: 1.5em;
+	border: 2px dashed aqua;
 }
 .post-text {
 	color: white;
 	font-family: Tillium Web;
+	border: 2px dashed aqua;
 }
 .post-text a {
 	text-decoration: none;
 	color: white;
+	border: 2px dashed aqua;
 }
 td {
 	color: white;
 	font-family: "Lucida Console", Monaco, monospace;
+	border: 2px dashed aqua;
 }
 @font-face {
 	font-family: Tillium Web;
