@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>A Young Developer's Notebook</title>
+		<link rel="stylesheet" type="text/css" href="unit1_projects/class1/practice/stylesheets/reset.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/index.css">
+		<link href='http://fonts.googleapis.com/css?family=Amatic+SC:700' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<div id="logo">
+			<p>A Young</p><br><br>
+			<p>Developer's</p><br><br>
+			<p>Notebook</p>
+			<br>
+			<br>
+			<div id="tagline">
+				<p>And</p>
+				<p>Other</p>
+				<p>Stories</p>
+			</div>
+		</div>
+		<nav id="social">
+			<div id="twitter">
+				<a href="https://twitter.com/a_langster"><img src="../blog-photos/Twitter-64.png" /></a>
+			</div>
+			<div id="facebook">
+				<a href="https://www.facebook.com/alex.lang.796"><img src="../blog-photos/FaceBook-64.png" /></a>
+			</div>
+			<div id="linkedin">
+				<a href="https://www.linkedin.com/pub/alexander-lang/8a/506/203"><img src="../blog-photos/Linkedin-64.png"></a>
+			</div>
+			<div id="mail">
+				<a href="mailto:langalex4@gmail.com"><img src="../blog-photos/GMail-64.png"></a>
+			</div>
+		</nav>
+		<div id="content">
+			<section class="post" id="post2">
+				<header>
+					<div class="date">
+						<p>July 24</p>
+					 	<p>2014</p>
+					 </div>
+					<div class="post-title">
+						<p>The Things I Think I Know About CSS Positioning</p>
+					</div>
+				</header>
+				<br>
+				<article class="post-text">
+					<p>If no positioning is specified for an element, its positioning defaults to static. With static positioning, the element will be positioned where it would be in the complete absence of any CSS. In the picture below, each div (the colored boxes) has static positioning with no margins.</p>
+					<img src="http://i.imgur.com/1MJMJIU.png" width="100%" height="auto">
+					<p>Margins can be applied, however, as seen in the image below.</p>
+					<img src="http://i.imgur.com/qj0Nm6s.png" width="100%" height="auto">
+					<p>Static positioning does not offer much, though, so designers like to use different types of positioning.</p>
+					<p>With relative positioning, the element is positioned relative to where it would have been placed with static positioning. Therefore, if a relatively-positioned element is given a margin-top of 100px, it will slide down the page 100px from where it would have been positioned initially, not 100px from the top of the page. This is what we see in the picture below with the yellow box.</p>
+					<img src="http://i.imgur.com/KVoUf5K.png" width="100%" height="auto">
+					<p>Now we give the aqua box a margin-top of 100px, and observe what happens to the yellow box: It moves down another 100px because it is positioned relative to where it would have been with static positioning. With static positioning, the yellow box would have been 100px below the aqua box, regardless of how far down the aqua box was moved. Thus, with relative positioning, the 100px of space between the aqua and yellow boxes is maintained.</p>
+					<img src="http://i.imgur.com/kt5zLQf.png" width="100%" height="auto">
+					<p>Absolute positioning is a bit more complex. When an element is absolutely-positioned, it is positioned in relation to its first parent element that does not have static positioning. If there is no such parent element, the element gets positioned relative to the html tag.</p>
+					<p>In the image below, the aqua box has absolute positioning, but because it has no parent element, it is positioned relative to the html tag. In the code, the red box is a child of the aqua box, so when we give the aqua box relative positioning (i.e., non-static) and the red box absolute positioning with a 10px margin-top, the red box moves down 10px from the top of the aqua box. This is what we see below.</p>
+					<img src="http://i.imgur.com/kt5zLQf.png" width="100%" height="auto">
+					<p>Finally, fixed positioning positions the element in relation to the browser window, anchoring it in place. This means that if a user scrolls in any direction on the page, the element will stay put in the user’s view.</p>
+				</article>
+			</section>
+			<br><br>
+		</div>
+	</body>
+</html>
