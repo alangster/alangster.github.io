@@ -1,0 +1,46 @@
+
+        @media screen and (min-width: 300px) and (max-width: 600px) {
+            body {
+              width: 100%;
+            }
+            div {
+                float: none;
+                margin: 3px;
+                width: auto;
+            }
+            .header {
+                font-size:2em;
+                text-align:center;
+            }
+        }
+        
+        @media screen and (min-width: 600px) {
+          .header {
+            text-align: center;
+          }
+          .responsive-design {
+          float: left;
+          margin: 0 auto;
+          width: 45%;
+          }
+          .fluid-layouts {
+          float: right;
+          margin: 0 auto;
+          width: 45%;
+          }
+          .your-conclusion {
+          float: left;
+          margin: 0 auto;
+          width: 45%;
+          }
+          .reflection {
+          float: right;
+          margin: 0 auto;
+          width: 45%;
+          }
+          .references {
+          float: left;
+          margin-left: 32%;
+          text-align: center;
+          }
+        }
