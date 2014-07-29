@@ -38,9 +38,9 @@ body {
 #blogs {
 	float: right;
 	width: 12%;
-	margin-left: 87.5%;
-	margin-top: 150px;
-	position: fixed;
+	margin-left: 85%;
+	margin-top: 90px;
+	position: relative;
 }
 #blogs a {
 	text-decoration: none;
