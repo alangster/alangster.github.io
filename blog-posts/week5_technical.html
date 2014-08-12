@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>A Young Developer's Notebook</title>
+		<link rel="stylesheet" type="text/css" href="unit1_projects/class1/practice/stylesheets/reset.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/index.css">
+		<link href='http://fonts.googleapis.com/css?family=Amatic+SC:700' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<div id="logo">
+			<p>A Young</p><br><br>
+			<p>Developer's</p><br><br>
+			<p>Notebook</p>
+			<br>
+			<br>
+			<div id="tagline">
+				<p>And</p>
+				<p>Other</p>
+				<p>Stories</p>
+			</div>
+		</div>
+		<nav id="social">
+			<div id="twitter">
+				<a href="https://twitter.com/a_langster"><img src="../blog-photos/Twitter-64.png" /></a>
+			</div>
+			<div id="facebook">
+				<a href="https://www.facebook.com/alex.lang.796"><img src="../blog-photos/FaceBook-64.png" /></a>
+			</div>
+			<div id="linkedin">
+				<a href="https://www.linkedin.com/pub/alexander-lang/8a/506/203"><img src="../blog-photos/Linkedin-64.png"></a>
+			</div>
+			<div id="mail">
+				<a href="mailto:langalex4@gmail.com"><img src="../blog-photos/GMail-64.png"></a>
+			</div>
+		</nav>
+		<div id="content">
+			<section class="post" id="post2">
+				<header>
+					<div class="date">
+						<p>August 12</p>
+					 	<p>2014</p>
+					 </div>
+					<div class="post-title">
+						<p>A Quick Class on Ruby Classes</p>
+					</div>
+				</header>
+				<br>
+				<article class="post-text">
+					<p>This week’s DBC prep has been focused on Ruby classes. A simple way to think of classes in Ruby is that a class is a group to which objects can be added. All of the objects of a class share certain attributes as well as methods that may be called on them. The values of the aforementioned attributes, however, may vary among the objects. I learn best when I have examples, so let’s do one!</p><br>
+					<p>Imagine we want to model a baseball team. We would start by creating a Team class, like so:</p>
+					<img src="http://i.imgur.com/bSTxP2u.png">
+					<p>Now, each team object that we create will be an instance of our Team class, provided we create it as follows:</p>
+					<img src="http://i.imgur.com/LRzYJP8.png">
+					<p>Right now, our “cubs” object is rather meaningless, as we have not given the objects in our Team class any methods. Let’s change that! We will start by defining an initialize method for the Team class. This method runs every time a new object in the Team class is created, and you can think of it as setting certain attributes of each object. For now, let’s give each Team object a name, city, manager, and star player. We’ll do that like this:</p>
+					<img src="http://i.imgur.com/wPx3mvH.png">
+					<p>Now, if we look back at creating our “cubs” object, we will enter the data as shown below.</p>
+					<img src="http://i.imgur.com/rVUu7ua.png">
+					<p>Still, though, nothing is really happening, because we have not coded the initialize method to actually do anything other than accept some strings. To change that, we will use instance variables. Instance variables are variables that can only be “seen” by the objects to which they belong, and they are used to set an object’s state (i.e. its properties, which in this case are its name, city, manager, and star player). Instance variables begin with the @ symbol, as shown below.</p>
+					<img src="http://i.imgur.com/1xaiuYa.png">
+					<p>Now when we create our “cubs” object, its state will be set with the values, “Cubs,” “Chicago,” “Rick Renteria,” and “Anthony Rizzo.” Admittedly, we still cannot do much, so let’s create some methods that can be called on all Team objects. These methods will be .name, .city, .manager, and .star_player, and each will return the value of that attribute. Here is how we do it:</p>
+					<img src="http://i.imgur.com/82xhDFn.png">
+					<p>If we call cubs.star_player, the method will return “Anthony Rizzo.” You can probably figure out what the other methods would return. You could use this feature like so:</p>
+					<img src="http://i.imgur.com/2HYyfsF.png">
+					<p>Hopefully you have a general idea of how and why to use classes, so I will wrap this up with one last method that does a bit more than our others. Unfortunately, teams sometimes trade away their star players. When this happens, another player generally becomes the new star. Therefore, we will define a method that allows us to adjust a team’s star player. (To add a method to a previously established class, just open the class up as if you were creating it again.)</p>
+					<img src="http://i.imgur.com/fishZEL.png">
+					<p>If, in the Cubs’ case, Anthony Rizzo were traded today, the new star player would be Javier Baez, and to set this, we would call the following:</p>
+					<img src="http://i.imgur.com/Kgyw4wr.png">
+					<p>There is much more to classes than I have presented here, but I hope this was an informative little session.</p>
+				</article>
+			</section>
+			<br><br>
+		</div>
+	</body>
+</html>
