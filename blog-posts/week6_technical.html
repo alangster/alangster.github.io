@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>A Young Developer's Notebook</title>
+		<link rel="stylesheet" type="text/css" href="unit1_projects/class1/practice/stylesheets/reset.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/index.css">
+		<link href='http://fonts.googleapis.com/css?family=Amatic+SC:700' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<div id="logo">
+			<p>A Young</p><br><br>
+			<p>Developer's</p><br><br>
+			<p>Notebook</p>
+			<br>
+			<br>
+			<div id="tagline">
+				<p>And</p>
+				<p>Other</p>
+				<p>Stories</p>
+			</div>
+		</div>
+		<nav id="social">
+			<div id="twitter">
+				<a href="https://twitter.com/a_langster"><img src="../blog-photos/Twitter-64.png" /></a>
+			</div>
+			<div id="facebook">
+				<a href="https://www.facebook.com/alex.lang.796"><img src="../blog-photos/FaceBook-64.png" /></a>
+			</div>
+			<div id="linkedin">
+				<a href="https://www.linkedin.com/pub/alexander-lang/8a/506/203"><img src="../blog-photos/Linkedin-64.png"></a>
+			</div>
+			<div id="mail">
+				<a href="mailto:langalex4@gmail.com"><img src="../blog-photos/GMail-64.png"></a>
+			</div>
+		</nav>
+		<div id="content">
+			<section class="post" id="post2">
+				<header>
+					<div class="date">
+						<p>August 21</p>
+					 	<p>2014</p>
+					 </div>
+					<div class="post-title">
+						<p>Declare Variables, Not War</p>
+					</div>
+				</header>
+				<br>
+				<article class="post-text">
+					<p>While every Ruby object has its purpose, variables are one of the more useful sorts, and they are rather basic in terms of their implementation. There are four main sorts of Ruby variables, and each has its own scope, or visibility, that determines how and by what the variable can be accessed. We’ll explore variables and, their scopes, in this entry.</p><br>
+					<img src="http://i.imgur.com/Rid5tiy.png"><br>
+					<p>At the top of our list, and with the broadest scope, are global variables. These variables are recognizable by their names, which begin with the $ symbol. Fittingly, global variables have what is referred to as “global scope,” meaning they are recognizable everywhere. Global variables can push right through the boundaries imposed by classes, modules, and methods, and can be accessed inside any of those. If you wish to have a variable that is used by all methods and within all classes in your program, then a global variable is a viable option. Given this fact, one would imagine that global variables are used frequently, but that is not the case. In fact, global variables are used quite infrequently in Ruby because they are not very flexible. They are given a value, and then they stay that value until changed. Part of the beauty of Ruby lies in having many different objects that work together, and global variables eliminate that together-ness.</p><br>
+					<img src="http://i.imgur.com/V4yXnB5.png"><br>
+					<p>Instance variables are another type of variable with a unique syntax (as seen above), although their scope is far more limited than that of global variables. Instance variables belong to an instance of a class, and so they are accessible by objects that are instances of that class. For each instance of the class, an instance variable may take on a different value.  A common use for instance variables is in the initialize methods of classes, an example of which can be seen above. When a new object is created in the class C, that specific object is created with the instance variable set to a certain, unique value. A different object in class C can have a completely different value for the instance variable. As for their scope, only instance methods can call the instance variables.</p><br>
+					<img src="http://i.imgur.com/IfP3lXY.png"><br>
+					<p>Between global and instance variables in terms of scope are class variables. Their syntax is only slightly different from instance variables (as seen above) but they have very different uses. Class variables are shared among instances of a class, so they have a single value. In the example above, every object that is created as an instance of class C will share the class variable and its value.</p><br>
+					<img src="http://i.imgur.com/efwaWBx.png"></img><br>
+					<p>Finally, there are local variables. These variables are the most limited in scope, and they lack any fancy syntax. Any Ruby program will have multiple local scopes through which it moves as the program runs. For example, every class, module, and method has its own local scope, as does the top level (i.e., beyond all definition blocks). Because they are exclusive to their local scope, one could re-use the same name for local variables across multiple local scopes and assign each variable a unique value. While this would go against best practice, it would still work, because each local variable would only be accessible within its local scope. Now, armed with this knowledge, go make some variables!</p>
+				</article>
+			</section>
+			<br><br>
+		</div>
+	</body>
+</html>
