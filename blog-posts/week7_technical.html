@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>A Young Developer's Notebook</title>
+		<link rel="stylesheet" type="text/css" href="unit1_projects/class1/practice/stylesheets/reset.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/index.css">
+		<link href='http://fonts.googleapis.com/css?family=Amatic+SC:700' rel='stylesheet' type='text/css'>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="logo">
+			<p>A Young</p><br><br>
+			<p>Developer's</p><br><br>
+			<p>Notebook</p>
+			<br>
+			<br>
+			<div id="tagline">
+				<p>And</p>
+				<p>Other</p>
+				<p>Stories</p>
+			</div>
+		</div>
+		<nav id="social">
+			<div id="twitter">
+				<a href="https://twitter.com/a_langster"><img src="../blog-photos/Twitter-64.png" /></a>
+			</div>
+			<div id="facebook">
+				<a href="https://www.facebook.com/alex.lang.796"><img src="../blog-photos/FaceBook-64.png" /></a>
+			</div>
+			<div id="linkedin">
+				<a href="https://www.linkedin.com/pub/alexander-lang/8a/506/203"><img src="../blog-photos/Linkedin-64.png"></a>
+			</div>
+			<div id="mail">
+				<a href="mailto:langalex4@gmail.com"><img src="../blog-photos/GMail-64.png"></a>
+			</div>
+		</nav>
+		<div id="content">
+			<section class="post" id="post2">
+				<header>
+					<div class="date">
+						<p>August 27</p>
+					 	<p>2014</p>
+					 </div>
+					<div class="post-title">
+						<p>SQL vs NoSQL</p>
+					</div>
+				</header>
+				<br>
+				<article class="post-text">
+					<p>The exposure to new concepts continued this week in my DBC prep as I learned all about databases. Prior to this week, I understood the basic concept of databases (i.e., that they store data), but I had no idea as to the different types of databases and how they work. </p>
+					<p>The curriculum this week focused on SQL databases, also known as Relational databases. (SQL stands for “Standard Query Language,” which refers to the syntax of calls to retrieve data from the database.) SQL databases rely on two-dimensional tables, and so they can be thought of (in a very simple way) as a series of spreadsheets. Each table contains columns and rows, and relationships exist between tables that tie them all together. Because SQL databases are quite old, there is more support available for those using them. Additionally, they have a customary querying language, and highly standardized structure. While their standard structure simplifies their use, it also makes them more difficult to use with unstructured data.</p>
+					<p>The alternative to an SQL database is a NoSQL database (No Standard Query Language). NoSQL databases differ from their SQL counterparts in that they do not store data in tables and instead rely on a number of different models for that purpose. NoSQL databases are extremely diverse, but they can be divided into four broad data model types: column, document, key-value, and graph.</p>
+					<p>The column data model is most similar to SQL databases in that it consists of columns (each of which have a name, value, and timestamp), groups of which can superficially resemble a table. However, although a group of columns may appear to have “rows,” it still is not a strict table, as each “row” will not necessarily have an instance of each column. The document data model is just as it sounds: It is a collection of complete documents full of information. Each document is akin to a row in a table, except a documents contains far more information than a row. The key-value data model is like a Ruby hash, with many unique keys, each paired with a value.The graph data model is the most visually stimulating, as it stores data using map-like graphs.</p>
+					<p>It should be clear from the above explanation of data models, that NoSQL databases are nowhere as structured as SQL databases. As a result, NoSQL databases work handle unstructured data better than SQL databases do, and this has made them increasingly popular in the era of big data. They are considered to be more efficient and scalable than SQL databases because they lack the stringent organization found in SQL databases. However, as their name suggests, NoSQL databases lack a standard query language, and this fact, combined with their many different structure options, makes them more difficult to implement and means there is less support available for those using them.</p>
+					<p>Personally, I prefer the safety of SQL databases, but I am intrigued by NoSQL databases. NoSQL databases seem more customizable, and so I see their appeal and wonder if the frequency with which they are used will increase as new ways are developed to collect more and different types of data.</p>
+				</article>
+			</section>
+			<br><br>
+		</div>
+	</body>
+</html>
