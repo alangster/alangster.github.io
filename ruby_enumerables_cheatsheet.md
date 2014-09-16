@@ -1,4 +1,5 @@
 Basic Methods
+	
 	#to_a 
 		Returns an array of all elements
 	#entries 
@@ -12,6 +13,7 @@ Basic Methods
 		e.g. [1,2,3,4,5].count {|x| x%2==0} #=> 2
 
 Iteration
+
 	#each {|x| ...} 
 		Yields all elements to code block 
 	#each_with_index {|x, i| ...} 
@@ -26,6 +28,7 @@ Iteration
 		Iterates over the elements in reverse order
 
 Questions
+
 	#include?(value) 
 		Returns true if any element == value
 	#member?(value) 
@@ -44,6 +47,7 @@ Questions
 			(Default block is {|x| x})
 
 Sorting
+
 	#sort [{|a,b} ...}] 
 		Returns array sorted by <=> or block
 			(Default block is {|a,b| a<=>b})
@@ -70,6 +74,7 @@ Sorting
 		e.g. [1,2,3,4].minmax_by {|x| x%2} #=> [2, 1] 
 
 Searching for One Element
+
 	#detect {|x| ...} 
 		Returns first element for which block is true
 		e.g. [1,2,3,4,5,6].detect {|x| x.between?(3,6)} #=> 3
@@ -84,6 +89,7 @@ Searching for One Element
 		e.g. [1,2,3,2,1].find_index {|x| x+2==4} => 1 
 	
 Filter by Value
+
 	#find_all {|x| ...} 	
 		Returns array of all elements for which block returns true
 		e.g. [1,2,3,4,5].find_all {|x| x%2==0} => [2, 4] 
@@ -99,6 +105,7 @@ Filter by Value
 		e.g. [:alex, :andrew, :alan].grep(/al/) => [:alex, :alan] 
 
 Filtering by Position
+
 	#first 
 		Returns first element
 	#first(n) 
@@ -118,6 +125,7 @@ Filtering by Position
 		e.g. [1,3,5,7,9,10,11,12].drop_while {|x| x%2==1} => [10, 11, 12] 
 
 Dividing into Subsets
+
 	#chunk {|x| ...} 
 		Returns an enumerator for consecutive chunk of elements
 			The consecutive elements with the same block value are chunked
@@ -140,6 +148,7 @@ Dividing into Subsets
 		e.g. [1,2,3,4,5,6,7,8,9].group_by {|x| x%3} => {1=>[1, 4, 7], 2=>[2, 5, 8], 0=>[3, 6, 9]} 
 
 Other
+
 	#collect {|x| ...} 
 		Returns an array with the results from the block
 		e.g. [1,2,3,4,5].collect {|x| x+1} => [2, 3, 4, 5, 6] 
