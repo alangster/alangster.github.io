@@ -1,18 +1,21 @@
 Git Commands
 
 Create
+	
 	Clone existing repository
 		$ git clone ssh://user@domain.com/repo.git
 	Create new local repository
 		$ git init
 
 Local Changes
+	
 	Changes to tracked files
 		$ git diff
 	Commit all local changes in tracked files
 		$ git commit -a
 
 Commit History
+	
 	Show all commits, starting with newest
 		$ git log
 	Show changes over time for a specific file
@@ -21,6 +24,7 @@ Commit History
 		$ git blame [file]
 
 Branches and Tags
+	
 	List all existing branches
 		$ git branch
 	Switch HEAD branch
@@ -35,6 +39,7 @@ Branches and Tags
 		$ git tag [tag_name]
 
 Update and Publish
+	
 	List all currently configured remotes
 		$ git remote -v
 	Show information about a remote
@@ -51,6 +56,7 @@ Update and Publish
 		$ git merge [branch]
 
 Undo
+	
 	Discard all local changes in working directory
 		$ git reset --hard HEAD
 	Discard local changes in a specific file
