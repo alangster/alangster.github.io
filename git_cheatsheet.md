@@ -31,6 +31,8 @@ Branches and Tags
 		$ git checkout [branch]
 	Create new branch based on current HEAD
 		$ git branch [new_branch]
+	Create new branch and automatically enter it
+		$ git branch -b [new_branch]
 	Create new tracking branch based on remote branch
 		$ git branch --track [new_branch] [remote_branch]
 	Delete a local branch
