@@ -1,6 +1,8 @@
 Terminal Commands
 
+
 Shortcuts
+
 	Ctrl + A
 		Go to beginning of current line
 	Ctrl + E 
@@ -19,6 +21,7 @@ Shortcuts
 		Kill whatever is running
 
 Core Commands
+
 	ls -a
 		Listing, including hidden files
 	open [filename] 
@@ -27,6 +30,7 @@ Core Commands
 		Opens the directory (in finder)
 
 File Management
+
 	touch [filename]
 		Create new file with given name
 	cat [filename]
@@ -52,6 +56,7 @@ File Management
 		Copy file to directory
 
 Directory Management
+
 	mkdir [dir]
 		Create a new directory
 	rmdir [dir]
