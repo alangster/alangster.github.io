@@ -2,276 +2,68 @@
 <html>
 
 	<head>
-		<title>A Young Developer's Notebook</title>
-		<link rel="stylesheet" type="text/css" href="stylesheets/index_2.css">
+		<title>alangster</title>
+		<link rel="stylesheet" type="text/css" href="stylesheets/index.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/normalize.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/jquery.pagepiling.css">
+		<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="javascripts/jquery.pagepiling.min.js"></script>	
+		<script type="text/javascript" src="javascripts/js.js"></script>
+
 		<meta charset="UTF-8">
-		<link href='http://fonts.googleapis.com/css?family=Raleway:600' rel='stylesheet' type='text/css'>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
-		
+
 	<body>
-		<img id="backdrop" src="blog-photos/abstract_2.png" />
-		<div id="left">
-			<div id="title">
-				<span id="heading">A<br/>Young<br/>Developer's<br/>Notebook</span>
-			</div>				
-			<table id="social">
-				<tr>
-					<td><a href="https://alangster.github.io"><img src="blog-photos/home.png" /></a></td>
-					<td><a href="mailto:langalex4@gmail.com"><img src="blog-photos/mail.png" /></a></td>
-				</tr>
-				<tr>
-					<td><a href="https://github.com/alangster"><img src="blog-photos/github.png" /></a></td>
-					<td><a href="https://twitter.com/a_langster"><img src="blog-photos/twitter.png" /></a></td>
-				</tr>
-				<tr>
-					<td><a href="https://twitter.com/a_langster"><img src="blog-photos/twitter.png" /></a></td>
-					<td><a href="https://www.facebook.com/alex.lang.796"><img src="blog-photos/facebook.png" /></a></td>
-				</tr>
-			</table>
-			<!-- <nav id="social">
-					<a href="https://alangster.github.io"><img src="imgs/home.png" /></a>
-					<a href="mailto:langalex4@gmail.com"><img src="imgs/mail.png" /></a><br>
-					<a href="https://www.linkedin.com/pub/alexander-lang/8a/506/203"><img src="imgs/linkedin.png" /></a>
-					<a href="https://github.com/alangster"><img src="imgs/github.png" /></a><br>
-					<a href="https://twitter.com/a_langster"><img src="imgs/twitter.png" /></a>
-					<a href="https://www.facebook.com/alex.lang.796"><img src="imgs/facebook.png" /></a>
-			</nav> -->
-		</div>
-		
-		<div id="watercolor">
-			<img src="blog-photos/down_the_mountain.png" />
+
+		<div id="pagepiling">
+
+			<div class="section" id="slide-1">
+				<p>hi, i'm alex.</p>
+			</div>
+
+			<div class="section" id="slide-2">
+				<p id="about">i'm a web developer and fan of...</p>
+			</div>
+
+			<div class="section" id="slide-3">
+				<p id="code">deliberately-crafted, modular code;</br>database wizardry;</br>russian composers;</br>and snatch-grip deadlifts.</p>
+			</div>
+
+			<div class="section" id="slide-4">
+				<p id="connect">connect with me</br>or check out some of my work.</p>
+				<div id="work">
+					<a href="https://quickfits.herokuapp.com/" class="work-example">
+						<div class="example" id="quick-fits">
+							<p id="quick-fits-title">MyQuickFits</p>
+						</div>
+					</a>
+					<a href="https://resume.creddle.io/resume/fygtb5bync1" class="work-example">
+						<div class="example" id="resume">
+							<p id="resume-title">resume</p>	
+						</div>
+					</a>
+				</div>
+				<nav>
+					<div class="contact" id="twitter">
+						<a href="https://twitter.com/a_langster"><img src="blog-photos/twitter.png" /></a>
+					</div>	
+					<div class="contact" id="github">
+						<a href="https://github.com/alangster"><img src="blog-photos/github.png" /></a>
+					</div>
+					<div class="contact" id="email">
+						<a href="mailto:langalex4@gmail.com"><img src="blog-photos/mail.png" /></a>
+					</div>
+					<div class="contact" id="linkedin">
+						<a href="https://www.linkedin.com/in/alexanderjlang/"><img src="blog-photos/linkedin.png" /></a>
+					</div>
+				</nav>
+			</div>
+
 		</div>
 
-		<div id="content">
-			<section id="blogs">
-					<a href="http://alangster.github.io/blog-posts/week9_cultural.html"><section class="post">
-						<header>
-							<div class="date">
-								<p>September 10, 2014</p>
-					 		</div>
-							<div class="post-title">
-								<p>The Art of Asking</p>
-							</div>
-						</header>
-						<br>
-						<article class="synopsis">
-							<p>There may be no stupid questions, but there are better ones.</p>
-						</article>	
-					</section></a><br/>
-					<a href="http://alangster.github.io/blog-posts/week8_technical.html"><section class="post">
-						<header>
-							<div class="date">
-								<p>September 1, 2014</p>
-					 		</div>
-							<div class="post-title">
-								<p>Ruby on Rails</p>
-							</div>
-						</header>
-						<br>
-						<article class="synopsis">
-							<p>So, about this "Rails" thing...</p>
-						</article>	
-					</section></a><br/>
-					<a href="http://alangster.github.io/blog-posts/week8_cultural.html"><section class="post">
-						<header>
-							<div class="date">
-								<p>September 1, 2014</p>
-					 		</div>
-							<div class="post-title">
-								<p>Conflict Deconstructed</p>
-							</div>
-						</header>
-						<br>
-						<article class="synopsis">
-							<p>Identifying the sources of a past conflict, and how I should have addressed them.</p>
-						</article>	
-					</section></a><br/>
-					<a href="http://alangster.github.io/blog-posts/week7_technical.html"><section class="post">
-						<header>
-							<div class="date">
-								<p>August 27, 2014</p>
-					 		</div>
-							<div class="post-title">
-								<p>SQL vs. NoSQL</p>
-							</div>
-						</header>
-						<br>
-						<article class="synopsis">
-							<p>A comparison of two similar, but different, database configurations.</p>
-						</article>	
-					</section></a><br/>
-					<a href="http://alangster.github.io/blog-posts/week7_cultural.html"><section class="post">
-						<header>
-							<div class="date">
-								<p>August 27, 2014</p>
-					 		</div>
-							<div class="post-title">
-								<p>My Values</p>
-							</div>
-						</header>
-						<br>
-						<article class="synopsis">
-							<p>Figuring out just what I valued during the best times of my life.</p>
-						</article>	
-					</section><br/>
-					<a href="http://alangster.github.io/blog-posts/week6_technical.html"><section class="post">
-						<header>
-							<div class="date">
-								<p>August 21, 2014</p>
-					 		</div>
-							<div class="post-title">
-								<p>Declare Variables, Not War</p>
-							</div>
-						</header>
-						<br>
-						<article class="synopsis">
-							<p>An explanation of the many faces of Ruby variables.</p>
-						</article>	
-					</section></a><br/>
-					<a href="http://alangster.github.io/blog-posts/week6_cultural.html"><section class="post">
-						<header>
-							<div class="date">
-								<p>August 21, 2014</p>
-					 		</div>
-							<div class="post-title">
-								<p>Stereotype Threat</p>
-							</div>
-						</header>
-						<br>
-						<article class="synopsis">
-							<p>The detrimental effects of unconscious stereotyping.</p>
-						</article>	
-					</section></a><br/>
-					<a href="http://alangster.github.io/blog-posts/week5_cultural.html"><section class="post">
-						<header>
-							<div class="date">
-								<p>August 13, 2014</p>
-					 		</div>
-							<div class="post-title">
-								<p>The Pleasures of Pairing</p>
-							</div>
-						</header>
-						<br>
-						<article class="synopsis">
-							<p>Singing the praises of an integral part of the DBC education.</p>
-						</article>	
-					</section></a><br/>
-					<a href="http://alangster.github.io/blog-posts/week5_technical.html"><section class="post">
-						<header>
-							<div class="date">
-								<p>August 12, 2014</p>
-					 		</div>
-							<div class="post-title">
-								<p>A Quick Class on Ruby Classes</p>
-							</div>
-						</header>
-						<br>
-						<article class="synopsis">
-							<p>Let's make a Baseball Team class.</p>
-						</article>	
-					</section></a><br/>
-					<a href="http://alangster.github.io/blog-posts/week4_cultural.html"><section class="post">
-						<header>
-							<div class="date">
-								<p>August 10, 2014</p>
-					 		</div>
-							<div class="post-title">
-								<p>Net Neutrality</p>
-							</div>
-						</header>
-						<br>
-						<article class="synopsis">
-							<p>Exploring what is possibly the biggest threat to innovation.</p>
-						</article>	
-					</section></a><br/>
-					<a href="http://alangster.github.io/blog-posts/week4_technical.html"><section class="post">
-						<header>
-							<div class="date">
-								<p>August 9, 2014</p>
-					 		</div>
-							<div class="post-title">
-								<p>Enumerables</p>
-							</div>
-						</header>
-						<br>
-						<article class="synopsis">
-							<p>Oh yeah, that word sounds familiar...</p>
-						</article>	
-					</section></a><br/>
-					<a href="http://alangster.github.io/blog-posts/week3_technical.html"><section class="post">
-						<header>
-							<div class="date">
-								<p>August 2, 2014</p>
-					 		</div>
-							<div class="post-title">
-								<p>JavaScript</p>
-							</div>
-						</header>
-						<br>
-						<article class="synopsis">
-							<p>A brief history of JavaScript (putting my history degree to work).</p>
-						</article>	
-					</section></a><br/>
-					<a href="http://alangster.github.io/blog-posts/week3_cultural.html"><section class="post">
-						<header>
-							<div class="date">
-								<p>July 29, 2014</p>
-					 		</div>
-							<div class="post-title">
-								<p>How I Think I Think</p>
-							</div>
-						</header>
-						<br>
-						<article class="synopsis">
-							<p>I think I think better than I think up titles.</p>
-						</article>	
-					</section></a><br/>
-					<a href="http://alangster.github.io/blog-posts/week2_technical.html"><section class="post">
-						<header>
-							<div class="date">
-								<p>July 24, 2014</p>
-					 		</div>
-							<div class="post-title">
-								<p>The Things I Think I Know About CSS Positioning</p>
-							</div>
-						</header>
-						<br>
-						<article class="synopsis">
-							<p>One of the more, um, frustrating aspects of web design.</p>
-						</article>	
-					</section></a><br/>
-					
-					<a href="http://alangster.github.io/blog-posts/week1_technical.html"><section class="post">
-						<header>
-							<div class="date">
-								<p>July 17, 2014</p>
-					 		</div>
-							<div class="post-title">
-								<p>My Favorite Sites</p>
-							</div>
-						</header>
-						<br>
-						<article class="synopsis">
-							<p>Baring my browsing habits for all to see.</p>
-						</article>	
-					</section></a><br/>
-					<a href="http://alangster.github.io/blog-posts/week1_cultural.html"><section class="post">
-						<header>
-							<div class="date">
-								<p>July 16, 2014</p>
-					 		</div>
-							<div class="post-title">
-								<p>Reflections on a Fireside Chat</p>
-							</div>
-						</header>
-						<br>
-						<article class="synopsis">
-							<p>My first (virtual) meeting with DBC's founder, Shereef.</p>
-						</article>	
-					</section></a><br/>
-				</section>
-			</section>
-		</div>
 	</body>
 
 </html>
