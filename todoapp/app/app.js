@@ -15,10 +15,10 @@
 	app.config(function ($routeProvider) {
 		$routeProvider
 			.when('/', {
-				templateUrl: '/app/partials/login.html'
+				templateUrl: '/todoapp/app/partials/login.html'
 			})
 			.when('/todos', {
-				templateUrl: '/app/partials/todos.html',
+				templateUrl: '/todoapp/app/partials/todos.html',
 				resolve: {requireLogin: requireLogin}
 			})
 	});
