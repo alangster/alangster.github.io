@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="TodoApp">
+	<head>
+		
+		<title>Todos</title>
+		<link rel="stylesheet" type="text/css" href="/bower_components/ng-sortable/dist/ng-sortable.min.css">
+		<link rel="stylesheet" type="text/css" href="/stylesheets/main.css">
+	</head>
+	<body>
+
+		<div id="page-wrap">
+			<div ng-view></div>
+		</div>
+		
+
+		<script type="text/javascript" src="/bower_components/jquery-2.1.0.min/index.js"></script>
+		<script type="text/javascript" src="/bower_components/angular/angular.min.js"></script>
+		<script type="text/javascript" src="/bower_components/angular-route/angular-route.min.js"></script>
+		<script type="text/javascript" src="bower_components/ng-sortable/dist/ng-sortable.min.js"></script>
+		<script type="text/javascript" src="/bower_components/angular-google-chart/ng-google-chart.js"></script>
+		<script type="text/javascript" src="/app/app.js"></script>
+		<script type="text/javascript" src="/app/services/todosCollectionService.js"></script>
+		<script type="text/javascript" src="/app/services/api.js"></script>
+		<script type="text/javascript" src="/app/controllers/loginCtrl.js"></script>
+		<script type="text/javascript" src="/app/controllers/todosCtrl.js"></script>
+		<script type="text/javascript" src="/app/controllers/createTodoCtrl.js"></script>
+
+	</body>
+</html>
